@@ -1,0 +1,34 @@
+object Form5: TForm5
+  Left = 550
+  Height = 330
+  Top = 32
+  Width = 550
+  Caption = 'Form5'
+  ClientHeight = 330
+  ClientWidth = 550
+  DesignTimePPI = 120
+  LCLVersion = '4.4.0.0'
+  OnShow = FormShow
+  object Label1: TLabel
+    Left = 24
+    Height = 18
+    Top = 24
+    Width = 233
+    Caption = 'About Alexandria University'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlue
+    Font.Name = 'Showcard Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 154
+    Top = 62
+    Width = 512
+    AutoSize = False
+    Caption = 'Alexandria University is a prestigious public university in Alexandria, Egypt, '#13#10'established in 1938 (as Farouk University) and '#13#10'becoming independent in 1942. '#13#10'As Egypt''s second-largest university, '#13#10'it hosts over 217,000 students across '#13#10'30 faculties and institutes. '#13#10'It is recognized globally, particularly in engineering, medicine, and science.'
+    OnClick = Label2Click
+  end
+end
