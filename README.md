@@ -1,1 +1,1 @@
-A college System with Pascal and sqlite for managing students and courses.
+A College System with Pascal and SQLITE for managing students and courses.
